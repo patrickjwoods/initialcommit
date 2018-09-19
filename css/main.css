@@ -2176,8 +2176,9 @@ html.no-csstransitions .home-content__main {
   background-color: #ececec;
   position: relative;
 }
+  .s-setup h1 { font-size: 5rem; }
 
-  .s-setup p { padding-top: 4rem; }
+  .s-setup p { padding-top: 2rem; font-size: 2rem; }
 
 
 /* ===================================================================
