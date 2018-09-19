@@ -2245,7 +2245,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
-p.s-setup { padding-top: 4rem; }
+  #setup p { padding-top: 4rem; }
 
 
 /* ===================================================================
