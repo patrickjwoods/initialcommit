@@ -2176,10 +2176,23 @@ html.no-csstransitions .home-content__main {
   background-color: #ececec;
   position: relative;
 }
-  .s-setup h1 { font-size: 5rem; }
+  .s-setup h1 { 
+    font-size: 5rem; 
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+  }
 
-  .s-setup p { padding-top: 1rem; font-size: 2rem; }
+  .s-setup p.attribution {   
+     font-family: "Playfair Display", sans-serif;
+     font-style: italic;
+     font-size: 3rem;
+     padding-top: 0;
+  }
 
+  .s-setup p { 
+    padding-top: 1rem; 
+    font-size: 2rem; 
+  }
 
 /* ===================================================================
  * # about
@@ -2331,8 +2344,13 @@ html.no-csstransitions .home-content__main {
     line-height: 1.3;
   }
 
-  #setup h1 { padding-bottom: 1rem; }
+  #setup h1 { 
+    padding-bottom: 1rem;
+    font-size: 3rem;
+  }
   #setup p { padding-top: 1rem; }
+
+  .s-setup p.attribution { font-size: 2rem; }
 
   .s-about, .s-services {
     padding-top: 4rem;
