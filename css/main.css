@@ -2178,7 +2178,7 @@ html.no-csstransitions .home-content__main {
 }
   .s-setup h1 { font-size: 5rem; }
 
-  .s-setup p { padding-top: 2rem; font-size: 2rem; }
+  .s-setup p { padding-top: 1rem; font-size: 2rem; }
 
 
 /* ===================================================================
@@ -2382,7 +2382,7 @@ html.no-csstransitions .home-content__main {
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
-  margin-top: 6rem;
+  margin-top: 0rem;
 }
 .services-list .service-item {
   margin-bottom: 1.5rem;
@@ -2417,7 +2417,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .services-list {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   .services-list .service-icon {
     font-size: 4.5rem;
