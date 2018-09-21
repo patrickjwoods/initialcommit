@@ -217,12 +217,12 @@
             <form name="audit-contact"  method="POST" data-netlify="true">
                     <div>
                         <label for="sampleInput">Your email</label>
-                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
+                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput" name="email">
                 </div>
                 <div>
                         <label for="sampleRecipientInput">What should we talk about?</label>
                         <div class="cl-custom-select">
-                            <select class="full-width" id="sampleRecipientInput">
+                            <select class="full-width" id="sampleRecipientInput" name="options">
                                 <option value="Option 1">Growth Audit</option>
                                 <option value="Option 2">Brand & Messaging Strategy</option>
                                 <option value="Option 3">Brand Ops</option>
@@ -231,9 +231,9 @@
                 </div>
                 
                     <label for="exampleMessage">Message</label>
-                    <textarea class="full-width" placeholder="Tell me a bit about yourself" id="exampleMessage"></textarea>
+                    <textarea class="full-width" placeholder="Tell me a bit about yourself" id="exampleMessage"></textarea name="message">
 
-                    <div data-netlify-recaptcha></div>
+                    <p><div data-netlify-recaptcha></div></p>
                 
                     <input class="btn--primary" type="submit" value="Let's Go!">
 
