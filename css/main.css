@@ -101,6 +101,13 @@ a:active {
   outline: 0;
 }
 
+a.dark { color: #000000; }
+a.dark:hover,
+a.dark:focus,
+a.dark:active {
+  color: #26bfb5;
+}
+
 
 /* ===================================================================
  * # typography & general theme styles
@@ -2169,12 +2176,12 @@ html.no-csstransitions .home-content__main {
  * # quote intro section 
  *
  * ------------------------------------------------------------------- */
-.s-setup {
-  padding-top: 8rem;
-  padding-bottom: 2rem;
-  background-color: #ececec;
-  position: relative;
-}
+  .s-setup {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    background-color: #ececec;
+    position: relative;
+  }
   .s-setup h1 { 
     font-size: 5rem; 
     padding-bottom: .5rem;
@@ -2193,6 +2200,10 @@ html.no-csstransitions .home-content__main {
     font-size: 2rem; 
   }
 
+  .interior .s-setup {
+    padding-top: 12rem;
+  }
+
 /* ===================================================================
  * # about
  *
@@ -2203,6 +2214,11 @@ html.no-csstransitions .home-content__main {
   background-color: #ffffff;
   position: relative;
 }
+
+
+    .interior .s-about {
+    padding-bottom: 4rem;
+  }
 
 
 /* ------------------------------------------------------------------- 
@@ -2240,6 +2256,14 @@ html.no-csstransitions .home-content__main {
   position: relative;
   min-height: 24.6rem;
 }
+
+
+.interior .process__col {
+  position: relative;
+  min-height: 0;
+}
+
+
 .process__col::before {
   content: attr(data-item);
   display: block;
@@ -2394,6 +2418,9 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
+.interior .s-services {
+  padding-top: 4rem;
+}
 
 /* ------------------------------------------------------------------- 
  * ## services list
