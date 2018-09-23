@@ -101,7 +101,7 @@ a:active {
   outline: 0;
 }
 
-a.dark { color: #000000; }
+a.dark { color: #000000; text-decoration: underline; }
 a.dark:hover,
 a.dark:focus,
 a.dark:active {
@@ -2203,6 +2203,29 @@ html.no-csstransitions .home-content__main {
   .interior .s-setup {
     padding-top: 12rem;
   }
+
+
+/* ===================================================================
+ * # highlight
+ *
+ * ------------------------------------------------------------------- */
+ .s-highlight {
+    background: #ffd900;
+    padding: .8rem 0;
+    margin: 0;
+    border: 0;
+  }
+  .s-highlight p {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .2rem;
+  }
+
+  .s-highlight a {}
+
 
 /* ===================================================================
  * # about
