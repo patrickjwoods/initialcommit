@@ -212,7 +212,7 @@
             <h2 class="display-1 text-center">I'm ready. Are you?</h2>
             <p class="lead">Shoot me a note below, and I'll reach out in a day or two to get the ball rolling.</p>
 
-            <form name="audit-contact" id="audit-form" method="POST" data-netlify="true">
+            <form name="audit-contact" id="audit-form" method="POST" data-netlify="true" action="thanks.html">
                     <div>
                         <label for="sampleInput">Your email</label>
                         <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput" name="email">
@@ -354,27 +354,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-    <script type="text/javascript">
-
-
-    $("#audit-form").submit(function(e) {
-      e.preventDefault();
-
-      var $form = $(this);
-      $.post($form.attr("action"), $form.serialize()).then(function(event) {
-        alert("Thanks, I'll be in touch soon.");
-        event.preventDefault(); // don't submit the form yet
-        _gaq.push(["_trackEvent", "Form", "Submitted", action, , false]); // create a custom event
-        setTimeout(function() { // now wait 300 milliseconds...
-            jsForm.submit(); // ... and continue with the form submission
-        },300);
-
-      });
-    });
-
-
-    </script>
 
 
 
